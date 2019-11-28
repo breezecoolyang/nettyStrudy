@@ -19,7 +19,7 @@ import java.util.concurrent.Future;
  * @author <a href="https://waylau.com">Way Lau</a>
  */
 public class AsyncEchoServer {
-	public static int DEFAULT_PORT = 7;
+	public static int DEFAULT_PORT = 9999;
 
 	/**
 	 * @param args

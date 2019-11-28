@@ -22,14 +22,14 @@ public class BlockingEchoClient {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		if (args.length != 2) {
-            System.err.println(
-                "用法: java BlockingEchoClient <host name> <port number>");
-            System.exit(1);
-        }
+//		if (args.length != 2) {
+//            System.err.println(
+//                "用法: java BlockingEchoClient <host name> <port number>");
+//            System.exit(1);
+//        }
 
-        String hostName = args[0];
-        int portNumber = Integer.parseInt(args[1]);
+        String hostName = "127.0.0.1";
+        int portNumber = 9999;
 
         try (
             Socket echoSocket = new Socket(hostName, portNumber);

@@ -18,7 +18,7 @@ import java.net.Socket;
  */
 public class BlockingEchoServer {
 
-	public static int DEFAULT_PORT = 7;
+	public static int DEFAULT_PORT = 9999;
 
 	/**
 	 * @param args
